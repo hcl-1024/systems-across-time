@@ -236,8 +236,7 @@ h3 {
   padding: 0 clamp(20px, 5vw, 56px);
 }
 
-.intro-grid,
-.publish-layout {
+.intro-grid {
   align-items: start;
   display: grid;
   gap: clamp(28px, 5vw, 74px);
@@ -245,7 +244,6 @@ h3 {
 }
 
 .intro-grid p,
-.publish-layout p,
 .section-heading p,
 .reflection-layout p {
   color: var(--muted);
@@ -365,59 +363,6 @@ h3 {
   max-width: 760px;
 }
 
-.publish-section {
-  background: var(--teal-dark);
-  color: var(--white);
-}
-
-.publish-section h2,
-.publish-section p,
-.publish-section .section-kicker {
-  color: var(--white);
-}
-
-.publish-section .section-kicker {
-  opacity: 0.72;
-}
-
-.publish-layout p {
-  color: rgba(255, 253, 248, 0.78);
-}
-
-.publish-steps {
-  background: rgba(255, 253, 248, 0.08);
-  border: 1px solid rgba(255, 253, 248, 0.14);
-  border-radius: 8px;
-  counter-reset: publish;
-  display: grid;
-  gap: 16px;
-  list-style: none;
-  margin: 0;
-  padding: 24px;
-}
-
-.publish-steps li {
-  align-items: start;
-  display: grid;
-  gap: 12px;
-  grid-template-columns: 34px minmax(0, 1fr);
-}
-
-.publish-steps li::before {
-  align-items: center;
-  background: var(--gold);
-  border-radius: 50%;
-  color: var(--ink);
-  content: counter(publish);
-  counter-increment: publish;
-  display: inline-flex;
-  font-size: 0.9rem;
-  font-weight: 900;
-  height: 34px;
-  justify-content: center;
-  width: 34px;
-}
-
 .site-footer {
   align-items: center;
   background: var(--ink);
@@ -450,7 +395,6 @@ h3 {
   }
 
   .intro-grid,
-  .publish-layout,
   .activity-grid,
   .activity-grid.two-up {
     grid-template-columns: 1fr;
