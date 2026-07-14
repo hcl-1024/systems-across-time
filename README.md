@@ -1,20 +1,33 @@
 # Systems Across Time
 
-A static website for a student activity portfolio organized into two exhibition sections:
+The public portfolio site for research, service, leadership, and creative projects. The site is deployed with GitHub Pages at:
 
-- Systems of Ancient Times
-- Invisible Modern Systems
+<https://hcl-1024.github.io/systems-across-time/>
 
-## Publish With GitHub Pages
+## Site structure
 
-1. Create a public GitHub repository named `systems-across-time`.
-2. Upload `index.html`, `styles.css`, `script.js`, `README.md`, and the `assets` folder.
-3. In the repository, open **Settings** > **Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select the `main` branch and `/root`, then save.
+- `index.html` — home
+- `projects/` — project directory and eight individual project pages
+- `research/` — Cicero credit-networks overview, methods, findings, and paper status
+- `about.html` — purpose and repository organization
+- `assets/` — shared visual assets
 
-GitHub will publish the site at a URL like:
+The research data and reproducible calculations are maintained separately in [cicero-credit-networks](https://github.com/hcl-1024/cicero-credit-networks). The paper page is intentionally a placeholder until the manuscript is ready for public release.
 
-```text
-https://your-username.github.io/systems-across-time/
+## Local preview
+
+Run a static server from the repository root, then open the local address it prints. For example:
+
+```sh
+python3 -m http.server 8000
 ```
+
+## Checks and deployment
+
+Run the internal-link check before committing:
+
+```sh
+python3 scripts/check_links.py
+```
+
+Pushes to `main` are validated and deployed automatically through GitHub Actions.

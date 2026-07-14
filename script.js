@@ -1,8 +1,7 @@
-const header = document.querySelector("[data-header]");
+const header = document.querySelector('.site-header');
 
-function updateHeaderState() {
-  header.classList.toggle("is-scrolled", window.scrollY > 16);
+if (header) {
+  const updateHeader = () => header.classList.toggle('scrolled', window.scrollY > 16);
+  updateHeader();
+  window.addEventListener('scroll', updateHeader, { passive: true });
 }
-
-updateHeaderState();
-window.addEventListener("scroll", updateHeaderState, { passive: true });
