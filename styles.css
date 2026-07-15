@@ -164,6 +164,7 @@ p { margin: 0 0 1rem; }
   .split, .content-grid { grid-template-columns: 1fr; }
   .card-grid, .card-grid.two, .metric-grid { grid-template-columns: 1fr 1fr; }
   .sidebar { order: -1; }
+  .paper-page .sidebar { order: initial; }
 }
 @media (max-width: 560px) {
   .site-nav { font-size: .86rem; }

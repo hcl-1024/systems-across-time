@@ -8,11 +8,11 @@ The public portfolio site for research, service, leadership, and creative projec
 
 - `index.html` — home
 - `projects/` — project directory and eight individual project pages
-- `research/` — Cicero credit-networks overview, methods, findings, and paper status
+- `research/` — Cicero credit-networks overview, methods, findings, and working paper
 - `about.html` — purpose and repository organization
 - `assets/` — shared visual assets
 
-The research data and reproducible calculations are maintained separately in [cicero-credit-networks](https://github.com/hcl-1024/cicero-credit-networks). The paper page is intentionally a placeholder until the manuscript is ready for public release.
+The research data, reproducible calculations, and public version 1.0 working paper are maintained in [cicero-credit-networks](https://github.com/hcl-1024/cicero-credit-networks). The website provides a stable public landing page for the paper and links to the versioned PDF on GitHub.
 
 ## Local preview
 
