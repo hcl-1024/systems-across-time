@@ -107,6 +107,9 @@ p { margin: 0 0 1rem; }
 .inner { margin: 0 auto; max-width: 1180px; padding: 0 clamp(20px, 5vw, 56px); }
 .split { align-items: start; display: grid; gap: clamp(32px, 6vw, 80px); grid-template-columns: minmax(0,.9fr) minmax(300px,1fr); }
 .section-heading { max-width: 760px; margin-bottom: 42px; }
+.area-section { scroll-margin-top: 6rem; }
+.area-heading { margin-bottom: 2rem; max-width: 52rem; }
+.area-heading h2 { margin: .35rem 0 .65rem; }
 .section-heading p, .prose p { color: var(--muted); }
 
 .card-grid { display: grid; gap: 18px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
