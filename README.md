@@ -12,7 +12,7 @@ The public portfolio site for research, service, leadership, and creative projec
 - `about.html` — purpose and repository organization
 - `assets/` — shared visual assets
 
-The research data, reproducible calculations, and public version 1.0 working paper are maintained in [cicero-credit-networks](https://github.com/hcl-1024/cicero-credit-networks). The website provides a stable public landing page for the paper and links to the versioned PDF on GitHub.
+The research data, reproducible calculations, and public version 1.0 working paper are maintained in [cicero-credit-networks](https://github.com/hcl-1024/cicero-credit-networks). The v1.0 PDF was revised on 17 July 2026 to improve two Andreau citations without changing its title, version designation, data, calculations, sensitivity results, or findings. The website provides a stable public landing page for the paper and links to the versioned PDF on GitHub.
 
 ## Local preview
 
